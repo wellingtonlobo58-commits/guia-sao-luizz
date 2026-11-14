@@ -1,0 +1,189 @@
+:root {
+    --cor-principal: #1e3a5f;
+    --cor-secundaria: #d9a441;
+    --cor-fundo: #f4f1ea;
+    --cor-texto: #333333;
+}
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: var(--cor-principal);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h2 {
+    color: var(--cor-principal);
+}
+
+nav {
+    background-color: var(--cor-secundaria);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+nav a {
+    color: var(--cor-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
+#pontos-turisticos {
+    padding: 30px;
+}
+
+#pontos-turisticos article {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    flex: 1;
+}
+
+#pontos-turisticos article img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+#pontos-turisticos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#contato {
+    padding: 30px;
+}
+
+#contato form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    margin: auto;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#contato button {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#contato {
+    padding: 30px;
+}
+
+#contato form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    margin: auto;
+}
+
+#contato label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contato input,
+#contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#contato button {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+body.escuro {
+    background-color: #222222;
+    color: white;
+}
+
+body.escuro h1,
+body.escuro h2,
+body.escuro h3,
+body.escuro p,
+body.escuro li,
+body.escuro label {
+    color: white;
+}
+
+body.escuro article,
+body.escuro form {
+    background-color: #333333;
+    color: white;
+}
+
+body.escuro nav {
+    background-color: #444444;
+}
+
+body.escuro nav a {
+    color: white;
+}
+
+body.escuro input,
+body.escuro textarea {
+    background-color: #444444;
+    color: white;
+    border-color: #777777;
+}
+
+body.escuro input::placeholder,
+body.escuro textarea::placeholder {
+    color: #cccccc;
+}
+
+body.escuro #pontos-turisticos article {
+    background-color: #333333;
+}
+
+body.escuro #contato form {
+    background-color: #333333;
+}
+
+body.escuro #contato input,
+body.escuro #contato textarea {
+    background-color: #444444;
+    color: white;
+}
